@@ -1,12 +1,9 @@
 import "./Home.scss"
+import Header from "../../Components/Header/Header";
 
 const Home = () => {
     return (
-        <div className="home">
-            <div className="homeContainer">
-                Home
-            </div>
-        </div>
+        <Header/>
     )
 }
 
