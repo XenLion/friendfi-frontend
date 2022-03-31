@@ -1,9 +1,21 @@
 import "./Navbar.scss"
+import image from "../../Assets/testlogo.png"
 
 const Navbar = () => {
   return (
       <nav>
-          <img src="friendfi.png" alt="" className="logo"/>
+          <img src={image} alt="" className="logo"/>
+          <ul className="navigationItems">
+              <li>
+                  item 1
+              </li>
+              <li>
+                  item 1
+              </li>
+              <li>
+                  item 1
+              </li>
+          </ul>
       </nav>
   )
 }
