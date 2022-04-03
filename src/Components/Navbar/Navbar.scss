@@ -1,15 +1,44 @@
 nav{
-  background-color: gray;
+
   display: flex;
   justify-content: space-between;
 
   .logo{
-    width: 50px;
+    width: 80px;
     height: 50px;
-
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+    color: #f5f6f8;
   }
 
   .navigationItems{
     display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: #f5f6f8;
+
+    .navigationItem{
+        padding-right: 50px;
+
+        .link{
+            color: #f5f6f8;
+            text-decoration: none;
+        }
+    }
+
+    .button{
+        background-color: #f5f6f8;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        width: 100px;
+        height: 30px;
+        border-radius: 4px;
+        font-weight: 500;
+        color: #0052ff;
+        font-size: 15px;
+    }
   }
 }
