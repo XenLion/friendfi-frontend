@@ -1,9 +1,13 @@
 import "./Home.scss"
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/Header/Header"
+import Overview from "../../Components/Overview/Overview"
 
 const Home = () => {
     return (
-        <Header/>
+        <>
+            <Header/>
+            <Overview/>
+        </>
     )
 }
 
