@@ -11,5 +11,17 @@
         font-size: 14px;
         color: #f5f6f8;
         font-weight: 700;
+        padding-top: 3px;
+    }
+
+    .widgetMain{
+        display: flex;
+        justify-content: center;
+    }
+
+    .widgetValue{
+        font-size: 14px;
+        color: #f5f6f8;
+        font-weight: 700;
     }
 }
