@@ -4,12 +4,10 @@ import OverviewWidgets from "../OverviewWidgets/OverviewWidgets"
 const Overview = () => {
     return (
             <section className="overviewSection">
-                <OverviewWidgets/>
-                <OverviewWidgets/>
-                <OverviewWidgets/>
-                <OverviewWidgets/>
-                <OverviewWidgets/>
-                <OverviewWidgets/>
+                <OverviewWidgets type="totalValue"/>
+                <OverviewWidgets type="totalCost"/>
+                <OverviewWidgets type="totalProfit"/>
+                <OverviewWidgets type="bitcoinPrice"/>
             </section>
     )
 }

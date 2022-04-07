@@ -1,7 +1,15 @@
 .overviewWidgets{
-    background-color: lightgray;
+    background-color: #0052ff;
     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
     border-radius: 10px;
     height: 100px;
-    width: -webkit-fill-available;
+    flex: 1;
+
+    .widgetHeader{
+        height: auto;
+        text-align-last: center;
+        font-size: 14px;
+        color: #f5f6f8;
+        font-weight: 700;
+    }
 }
